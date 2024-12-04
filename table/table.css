@@ -1,0 +1,254 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.website {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  background-color: rgb(50, 50, 50);
+}
+.website .navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+  width: 220px;
+  background-color: rgb(22, 21, 21);
+  height: 800px;
+}
+.website .navbar .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-left: 0px;
+  gap: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.379);
+  padding: 15px;
+  margin-top: 15px;
+}
+.website .navbar .logo img {
+  height: 35px;
+  width: 35px;
+}
+.website .navbar .logo h1 {
+  color: rgb(245, 246, 248);
+  font-family: serif;
+}
+.website .navbar .logo i {
+  margin-bottom: 40px;
+  display: none;
+}
+.website .navbar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.website .navbar .nav1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0px;
+}
+.website .navbar .nav1:hover {
+  background-color: rgba(0, 255, 255, 0.303);
+}
+.website .navbar .nav1 .special {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 43px 10px 43px;
+}
+.website .navbar .nav1 img {
+  width: 30px;
+  height: 30px;
+}
+.website .navbar .nav1 li {
+  list-style: none;
+}
+.website .navbar .nav1 a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(249, 244, 244);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+.website .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  height: 800px;
+}
+.website .content .navbar2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 78px;
+  width: 1045px;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  background-color: rgb(129, 12, 12);
+}
+.website .content .navbar2 .bars {
+  font-size: 20px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 360px;
+  margin-left: 20px;
+}
+.website .content .navbar2 i {
+  color: white;
+}
+.website .content .navbar2 .searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 15px 15px 15px 15px;
+}
+.website .content .navbar2 .searchbar input {
+  outline: none;
+  padding: 10px 100px 10px 5px;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+}
+.website .content .navbar2 .searchbar i {
+  font-size: 20px;
+  padding: 0px 10px 0px 5px;
+  color: white;
+}
+.website .content .navbar2 .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-right: 20px;
+}
+.website .content .navbar2 .icons .bell {
+  font-size: 20px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 100px;
+}
+.website .content h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 5px;
+  border-bottom: 2px solid rgb(243, 246, 243);
+  color: white;
+}
+.website .content .create form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+  margin-left: 32px;
+  margin-right: 90px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  padding: 60px;
+  border-radius: 10px;
+  background-color: black;
+}
+.website .content .create form label {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+}
+.website .content .create form .formo {
+  background-color: rgba(43, 43, 43, 0.389);
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+}
+.website .content .create form input {
+  padding: 5px 3px;
+  border: none;
+  border-radius: 50px;
+}
+.website .content .create form button {
+  padding: 10px 10px;
+  margin: 2px;
+  border: none;
+  box-shadow: 2px 2px 2px white inset;
+  cursor: grab;
+  border-radius: 9px;
+  background-color: rgb(227, 8, 8);
+  color: white;
+  font-size: 18px;
+}
+.website .content .create form button:hover {
+  box-shadow: none;
+}
+.website .content #myupdatedata input {
+  margin-top: 30px;
+  margin-left: 40px;
+  padding: 5px;
+  border: 2px solid red;
+}
+.website .content #myupdatedata button {
+  padding: 7px 10px;
+  margin: 2px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: rgb(0, 157, 255);
+  color: white;
+  margin-left: 20px;
+}
+.website .content .table table {
+  width: 180%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: left;
+  margin-left: 30px;
+}
+.website .content .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.website .content .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.website .content .table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+.website .content .table tr:hover {
+  background-color: #f1f1f1;
+}
+.website .content .table .action-btn {
+  padding: 5px 10px;
+  margin: 2px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.website .content .table .delete-btn {
+  background-color: red;
+  color: white;
+}
+.website .content .table .update-btn {
+  background-color: rgb(255, 34, 0);
+  color: white;
+}/*# sourceMappingURL=table.css.map */

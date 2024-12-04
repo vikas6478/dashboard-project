@@ -1,0 +1,282 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.website {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  background-color: rgb(50, 50, 50);
+}
+.website .navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+  width: 220px;
+  height: 800px;
+  background-color: rgb(22, 21, 21);
+}
+.website .navbar .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-left: 0px;
+  gap: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.379);
+  padding: 20px;
+}
+.website .navbar .logo img {
+  height: 35px;
+  width: 35px;
+}
+.website .navbar .logo h1 {
+  color: rgb(245, 246, 248);
+  font-family: serif;
+}
+.website .navbar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.website .navbar .nav1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0px;
+}
+.website .navbar .nav1:hover {
+  background-color: rgba(0, 255, 255, 0.303);
+}
+.website .navbar .nav1 .special {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 43px 10px 43px;
+}
+.website .navbar .nav1 img {
+  width: 30px;
+  height: 30px;
+}
+.website .navbar .nav1 li {
+  list-style: none;
+}
+.website .navbar .nav1 a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(249, 244, 244);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+.website .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  height: 800px;
+}
+.website .content .navbar2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 78px;
+  width: 1045px;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  background-color: rgb(129, 12, 12);
+}
+.website .content .navbar2 .bars {
+  font-size: 20px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 360px;
+  margin-left: 20px;
+}
+.website .content .navbar2 i {
+  color: white;
+}
+.website .content .navbar2 .searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 15px 15px 15px 15px;
+}
+.website .content .navbar2 .searchbar input {
+  outline: none;
+  padding: 10px 100px 10px 5px;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+}
+.website .content .navbar2 .searchbar i {
+  font-size: 20px;
+  padding: 0px 10px 0px 5px;
+  color: white;
+}
+.website .content .navbar2 .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-right: 20px;
+}
+.website .content .navbar2 .icons .bell {
+  font-size: 20px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 100px;
+}
+.website .content h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 5px;
+  border-bottom: 2px solid rgb(243, 246, 243);
+  color: white;
+}
+.website .content .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.website .content .card .card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px 25px 10px 25px;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  border: 3px solid black;
+}
+.website .content .card .card1 img {
+  height: 50px;
+  width: 50px;
+}
+.website .content .card .card1 .cardcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.website .content .card .card1 .cardcontent p {
+  color: gray;
+  font-style: "Montserrat", sans-serif;
+  font-size: 17px;
+}
+.website .content .card .card1 .cardcontent h2 {
+  font-style: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.website .content .bigcard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.website .content .bigcard .bigcard1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+  padding: 10px 35px 10px 35px;
+  border-radius: 10px;
+  background-color: black;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); /* x, y, blur, color */
+}
+.website .content .bigcard .bigcard1 h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+.website .content .bigcard .bigcard1 img {
+  height: 170px;
+  width: 170px;
+}
+.website .content .bigcard .bigcard1 .bigcardcontent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.website .content .bigcard .bigcard1 .bigcardcontent span {
+  height: 20px;
+  width: 20px;
+  background-color: #0b8e9a;
+  border-radius: 50%;
+  display: inline-block;
+}
+.website .content .bigcard .bigcard1 .bigcardcontent p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  color: gray;
+}
+.website .content .graph {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); /* x, y, blur, color */
+  border-radius: 10px 10px 10px 10px;
+  padding-top: 10px;
+  background-color: black;
+}
+.website .content .graph img {
+  height: 300px;
+  width: 600px;
+  margin-bottom: 2px;
+  border-radius: 0px 0px 12px 0px;
+}
+.website .content .graph h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 20px;
+  color: white;
+}
+.website .content .graph h4 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 20px;
+  color: gray;
+}
+.website .content .graph h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 20px;
+  color: gray;
+}/*# sourceMappingURL=dasboard.css.map */

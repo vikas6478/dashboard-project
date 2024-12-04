@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+
+    <section class="firstpage">
+      <div class="signupform">
+        <h1>Sign Up</h1>
+        <form action="login.html" class="foram">
+          <input
+            type="text"
+            name=""
+            id="name"
+            class="formo"
+            placeholder="Your Name"
+            onclick="removeformborder('name')"
+          />
+          <input
+            type="email"
+            name=""
+            id="email"
+            class="formo"
+            placeholder="Your Email"
+            onclick="removeformborder('email')"
+          />
+          <input
+            type="password"
+            name=""
+            id="psw"
+            class="formo"
+            placeholder="Password"
+            onclick="removeformborder('psw')"
+          />
+          <input
+            type="password"
+            name=""
+            id="cpsw"
+            class="formo"
+            placeholder="Confirm Password"
+            onclick="removeformborder('cpsw')"
+          />
+          <button onclick="return formvalidet();">Register</button>
+        </form>
+        <a href="login.html" target="_blank">SIGN IN</a>
+      </div>
+
+      <!-- <div class="photo">
+        <img
+          src="/pixelcut-export (3).jpeg"
+          alt=""
+          height="250px"
+          width="250px"
+        /> 
+      </div> -->
+    </section>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

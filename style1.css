@@ -1,0 +1,114 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(146, 142, 142);
+}
+
+.firstpage {
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 10px 5px 20px 10px, rgba(242, 244, 245, 0.951) 0px -2px 6px 0px inset;
+  position: absolute;
+  left: 450px;
+  border-radius: 5%;
+}
+.firstpage .signupform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 40px;
+  padding: 50px;
+  color: white;
+}
+.firstpage .signupform .formo {
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+.firstpage .signupform h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 35px;
+  color: white;
+}
+.firstpage .signupform h1:hover {
+  color: rgba(179, 155, 6, 0.955);
+}
+.firstpage .signupform .foram {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+  margin-top: 20px;
+}
+.firstpage .signupform .foram #erroremail {
+  color: red;
+  position: absolute;
+  top: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.firstpage .signupform .foram #errorpsw {
+  color: red;
+  position: absolute;
+  top: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.firstpage .signupform .foram button {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(4, 96, 32);
+  color: white;
+  padding: 8px 15px 8px 15px;
+  border-radius: 5px;
+  cursor: grab;
+}
+.firstpage .signupform .foram button:hover {
+  background-color: rgba(179, 155, 6, 0.955);
+  color: black;
+}
+.firstpage .signupform .foram input {
+  border: none;
+  border-bottom: 1px solid rgb(246, 242, 242);
+  padding: 10px 120px 10px 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .firstpage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 530px;
+    width: 700px;
+    position: absolute;
+    left: 40px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .firstpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 830px;
+    width: 400px;
+    position: absolute;
+    left: 12px;
+  }
+}/*# sourceMappingURL=style1.css.map */
